@@ -33,7 +33,7 @@ function verify(result) {
   valid = valid && (result.x !== undefined);
   valid = valid && (result.y !== undefined);
   valid = valid && (result.id !== undefined);
-  return result;
+  return valid;
 }
 
 function broadcast(message) {
